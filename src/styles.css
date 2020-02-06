@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  background: linear-gradient(#355C7D, #6C5B7B);
+  height: 800px
+}
+.background{
+}
+
+.main-header {
+  text-align: center;
+  color: white;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 5em, 5em, 10em, auto;
+  grid-auto-columns: 5em;
+  grid-auto-rows: 5em;
+  padding: 10px 150px 10px 150px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.grid-header-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: #c9d1f5; */
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.justify-left {
+  text-align: left;
+}
+
+.justify-end {
+  text-align: right;
+}
+
+.justify-center {
+  text-align: center;
+  color: white;
+}
+
+.timer {
+  color: #5168e9;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.restart-button {
+  width: 10em;
+  height: 3em;
+  color: Black;
+  background: linear-gradient(to right, #D3CCE3, #E9E4F0);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 3px silver;
+}
+.restart-button:hover {
+  color: white;
+  background: linear-gradient(to right, #20002c, #cbb4d4);
+}
+
+.game-status-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(24, 21, 16);
+  font-weight: bold;
+}
+
+.card {
+  width: 5em;
+  height: 5em;
+  /* background-color: rgb(111, 154, 166); */
+  color: white;
+  font-size: 15px;
+}
+
+.hide-card {
+  visibility: hidden;
+}
+
+.card-front {
+  background-color: ;
+  box-shadow: 5px 5px 5px rgba(116, 116, 116, 0.6);
+  border-radius: 8px;
+}
+.card-front:hover {
+  background-color: #c2c2c2;
+}
+.card-back {
+  font-weight: bold;
+  box-shadow: 5px 5px 5px rgba(116, 116, 116, 0.6);
+  border-radius: 8px;
+}
+
+/* .react-card-front {
+  position: unset !important;
+} */
