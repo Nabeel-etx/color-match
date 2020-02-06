@@ -1,10 +1,8 @@
-import React, { useState } from "react";
-import useEffect from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 import Header from "./components/Header";
 import Card from "./components/Card";
 import GameOver from "./components/GameOver";
-import Counter from "./components/counter";
 import "./styles.css";
 
 class App extends React.Component {
